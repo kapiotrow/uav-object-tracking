@@ -1,1 +1,1 @@
-# uav-object-tracking
+# FPGA MOSSE Object Tracker for Multirotor UAVs
