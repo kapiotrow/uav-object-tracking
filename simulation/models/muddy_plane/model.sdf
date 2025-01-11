@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='muddy plane'>
+  
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_0</name>
+      <pose>8 0 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_1</name>
+      <pose>0 10 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_2</name>
+      <pose>-8 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_3</name>
+      <pose>0 -10 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_4</name>
+      <pose>16 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_5</name>
+      <pose>24 -10 0 0 0 0</pose>
+    </include>
+        <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_6</name>
+      <pose>-8 10 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_7</name>
+      <pose>8 -10 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_8</name>
+      <pose>16 10 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_9</name>
+      <pose>8 10 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_10</name>
+      <pose>24 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_11</name>
+      <pose>16 -10 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_12</name>
+      <pose>-8 -10 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Mud Box</uri>
+      <name>mud_13</name>
+      <pose>24 10 0 0 0 0</pose>
+    </include>
+  </model>
+</sdf>
