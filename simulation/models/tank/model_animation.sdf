@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+      <actor name="animated_box">
+        <link name="link">
+          <visual name="visual">
+          <pose>0 0 .6 0 0 1.5707</pose>
+            <geometry>
+               <mesh>
+                  <uri>meshes/m26.dae</uri>
+               </mesh>
+            </geometry>
+          </visual>
+        </link>
+        <script>
+          <loop>true</loop>
+          <delay_start>0.000000</delay_start>
+          <auto_start>true</auto_start>
+          <trajectory id="0" type="square">
+             <waypoint>
+                <time>0.0</time>
+                <pose>8 -2 0 0 0 3.1414</pose>
+             </waypoint>
+             <waypoint>
+                <time>1.0</time>
+                <pose>9 -2 0 0 0 3.1414</pose>
+             </waypoint>
+             <waypoint>
+                <time>2.0</time>
+                <pose>10 -2 0 0 0 3.1414</pose>
+             </waypoint>
+             <waypoint>
+                <time>3.0</time>
+                <pose>11 -2 0 0 0 3.1414</pose>
+             </waypoint>
+             <waypoint>
+                <time>4.0</time>
+                <pose>12 -2 0 0 0 3.1414</pose>
+             </waypoint>
+          </trajectory>
+        </script>
+      </actor>
+</sdf>
